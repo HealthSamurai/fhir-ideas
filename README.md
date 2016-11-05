@@ -13,7 +13,7 @@ Every mutation consist of:
 * `operation` (replace, append, increment)
 * `operation arguments`  (values)
 
-(See)[patch.md]
+[Read more..](patch.md)
 
 ### Transaction Log 
 
