@@ -36,6 +36,7 @@ Every mutation consist of:
 
 ### Swagger integration
 
+### Different formats: yaml, edn, transit, ...
 
 
 ## Terminology
