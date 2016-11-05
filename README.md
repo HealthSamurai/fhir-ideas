@@ -1,5 +1,7 @@
 # FHIR standard ideas for considiration
 
+## Core
+
 ### Patch & Diff Resources
 
 Most of FHIR Operations are working on Resource's Level of Granularity, which brings
@@ -15,17 +17,27 @@ Every mutation consist of:
 
 [Read more..](patch.md)
 
+
 ### Transaction Log 
+
+### Streams & Subscriptions
+
+### TestScript
+
+
+## Representation
+
+
+### Masking Params for API
 
 ### Alternative Extensions Representation
 
 ### Inlined References Representation for Bundles and Contained Resources
 
-### Streams & Subscriptions
-
 ### Swagger integration
 
-### Terminology
 
-### TestScript
+
+## Terminology
+
 
