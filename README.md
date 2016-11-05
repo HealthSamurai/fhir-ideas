@@ -17,6 +17,10 @@ Every mutation consist of:
 
 ### Transaction Log 
 
+### Alternative Extensions Representation
+
+### Inlined References Representation for Bundles and Contained Resources
+
 ### Streams & Subscriptions
 
 ### Swagger integration
