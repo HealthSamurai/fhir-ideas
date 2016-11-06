@@ -15,6 +15,8 @@ popular extensions:
 
 Same scope only prefix
 
+v1
+
 ```
 resourceType: 'Patient'
 $schema:
@@ -66,6 +68,25 @@ ns/birthDate/some-primitive-extension:"value"
 
 * Key-Value semantic
 * Easy access
-* DataBases
-* Uniformity
+  * DataBases
+  * Frontend (JS, UI)
+* Uniformity with core
 * JSON schemas (Profiles)
+
+
+$schema could be turned into definition property which could contain all definitions
+including version or refer by uri. So we could get self contained resource with schema
+and profiles. When you are serving Bundle definitions could be poped to Bundle root, so
+you do not need to repeat them.
+
+```yaml
+
+resourceType: 'Patient'
+definittions:
+ core: StructureDefinition with FHIR version
+ us: US extensions used in this resource
+ some-profile:  ...
+attr: Value
+ext/attr: Valeu
+
+```
